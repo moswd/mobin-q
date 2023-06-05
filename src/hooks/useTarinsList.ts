@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useAuth } from '@hooks/useAuth'
-import { TARINS_LIST } from './staticData'
+// import { TARINS_LIST } from './staticData'
 
 export interface Tarin {
   ID: number
