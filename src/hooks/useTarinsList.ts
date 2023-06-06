@@ -4,8 +4,8 @@ import { useAuth } from '@hooks/useAuth'
 
 export interface Tarin {
   ID: number
-  tarinName: string
-  studentNames: string[]
+  tarin_name: string
+  student_names: string[]
 }
 
 interface TarinListResponse {

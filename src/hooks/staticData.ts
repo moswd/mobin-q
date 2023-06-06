@@ -151,6 +151,6 @@ export const TARIN_NAMES = [
 
 export const TARINS_LIST: Tarin[] = TARIN_NAMES.map((name, index) => ({
   ID: index + 1,
-  tarinName: name,
-  studentNames: STUDENT_NAMES
+  tarin_name: name,
+  student_names: STUDENT_NAMES
 }))

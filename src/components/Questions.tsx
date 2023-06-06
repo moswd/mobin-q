@@ -37,9 +37,9 @@ function Questions() {
 
   const currentQuestion = list?.[currentQuestionIndex]
   const currentQuestionStudents = currentQuestion
-    ? [...new Set(currentQuestion.studentNames)]
+    ? [...new Set(currentQuestion.student_names)]
     : []
-  const currentTarinName = currentQuestion ? currentQuestion.tarinName : ''
+  const currentTarinName = currentQuestion ? currentQuestion.tarin_name : ''
 
   const questionsLength = list.length
   const progressPercent = Math.ceil((currentQuestionId / questionsLength) * 100)
@@ -50,8 +50,8 @@ function Questions() {
     if (!selectedStudents.length) return
 
     const submitted = await submitAnswer({
-      tarinId: currentQuestionId,
-      studentNames: selectedStudents
+      tarin_id: currentQuestionId,
+      student_names: selectedStudents
     })
 
     if (submitted) {

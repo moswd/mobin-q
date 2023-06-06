@@ -24,7 +24,7 @@ export function useSignIn(callback?: Callback) {
           Accept: 'application/json',
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ studentID: studentId })
+        body: JSON.stringify({ student_id: studentId })
       })
 
       if (!res.ok) throw new Error('not ok')

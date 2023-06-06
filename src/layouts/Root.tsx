@@ -24,7 +24,7 @@ function Root() {
   const theme: MantineThemeOverride = {
     fontFamily: 'VazirMatn, tahoma, sans-serif',
     dir: 'rtl',
-    colorScheme: 'dark',
+    colorScheme: 'light',
     primaryColor: 'cyan',
     headings: {
       sizes: {

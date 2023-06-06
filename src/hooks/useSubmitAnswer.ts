@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { useAuth } from '@hooks/useAuth'
 
 interface SubmitAnswerPayload {
-  tarinId: number
-  studentNames: string[]
+  tarin_id: number
+  student_names: string[]
 }
 
 interface SubmitAnswerResponse {
